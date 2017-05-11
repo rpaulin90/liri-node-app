@@ -1,0 +1,1 @@
+web: node liri.js spotify-this-song
