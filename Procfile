@@ -1,1 +1,1 @@
-web: node liri.js spotify-this-song
+web: node liri.js

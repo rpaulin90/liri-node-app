@@ -1,0 +1,6 @@
+/usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song 
+Artist Name: Ace of Base
+Name of track: The Sign
+Link to a preview of the track: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
+Name of the album: The Sign (US Album) [Remastered]
+///////////////////////////////////////////////////
