@@ -14,7 +14,8 @@ var fs = require("fs");
 
 var client = new Twitter(myKeys.twitterKeys);
 
-var params = {screen_name: 'nodejs'};
+var params = {screen_name: 'codingricardo', count: 20};
+
 
 var argument = process.argv[2];
 
@@ -36,7 +37,7 @@ var consoleLog = "";
 
 var saveIntoLog = function(){
 
-    var commandLine = process.argv[0] + " " + process.argv[1] + " " + argument + " " + argument_name + "\n";
+    var commandLine = process.argv[0] + " " + process.argv[1] + " " + argument + " " + argument_name + "\n" + "************************************" + "\n";
 
     fs.appendFile("log.txt", commandLine + consoleLog, function(err) {
 
@@ -63,26 +64,18 @@ var liri = function() {
 
     if (argument === "my-tweets") {
 
-        client.get('statuses/user_timeline', function (error, tweets, response) {
+        client.get('statuses/user_timeline', params, function (error, tweets, response) {
             if (!error) {
-                if (tweets.length < 20) {
-                    for (var x = 0; x < tweets.length; x++) {
 
-                        console.log("Tweet created on " + tweets[x].created_at + ": " + tweets[x].text);
-                        consoleLog += "Tweet created on " + tweets[x].created_at + ": " + tweets[x].text + "\n";
+                for(var x = 0; x < tweets.length; x ++){
 
-                    }
-                    saveIntoLog();
+                    console.log("Tweet created on " + tweets[x].created_at + ": " + tweets[x].text + "\n" + "------------------------------------------------");
+                    consoleLog += "Tweet created on " + tweets[x].created_at + ": " + tweets[x].text + "\n" + "------------------------------------------------" + "\n";
+
                 }
-                else {
-                    for (var i = 0; i < 20; i++) {
 
-                        console.log("Tweet created on " + tweets[i].created_at + ": " + tweets[i].text);
-                        consoleLog += "Tweet created on " + tweets[i].created_at + ": " + tweets[i].text + "\n";
-
-                    }
-                    saveIntoLog();
-                }
+                // append results to log.txt
+                saveIntoLog();
             }
         });
     }
@@ -91,24 +84,22 @@ var liri = function() {
 
     if (argument === "spotify-this-song") {
 
-        //console.log(argument_name);
-
         if (argument_name === "") {
             spotify.search({type: 'track', query: "The Sign"}, function (err, data) {
                 if (err) {
                     console.log('Error occurred: ' + err);
                     return;
                 }
-                console.log("Artist Name: " + data.tracks.items[3].artists[0].name);
-                console.log("Name of track: " + data.tracks.items[3].name);
-                console.log("Link to a preview of the track: " + data.tracks.items[3].preview_url);
-                console.log("Name of the album: " + data.tracks.items[3].album.name);
-                console.log("///////////////////////////////////////////////////")
+                console.log("Artist Name: " + data.tracks.items[4].artists[0].name);
+                console.log("Name of track: " + data.tracks.items[4].name);
+                console.log("Link to a preview of the track: " + data.tracks.items[4].preview_url);
+                console.log("Name of the album: " + data.tracks.items[4].album.name);
+                console.log("///////////////////////////////////////////////////");
 
-                consoleLog += "Artist Name: " + data.tracks.items[3].artists[0].name + "\n";
-                consoleLog += "Name of track: " + data.tracks.items[3].name + "\n";
-                consoleLog += "Link to a preview of the track: " + data.tracks.items[3].preview_url + "\n";
-                consoleLog += "Name of the album: " + data.tracks.items[3].album.name + "\n";
+                consoleLog += "Artist Name: " + data.tracks.items[4].artists[0].name + "\n";
+                consoleLog += "Name of track: " + data.tracks.items[4].name + "\n";
+                consoleLog += "Link to a preview of the track: " + data.tracks.items[4].preview_url + "\n";
+                consoleLog += "Name of the album: " + data.tracks.items[4].album.name + "\n";
                 consoleLog += "///////////////////////////////////////////////////" + "\n";
 
                 saveIntoLog();
