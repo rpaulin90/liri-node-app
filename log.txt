@@ -1,16 +1,157 @@
+
+/usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js my-tweets 
+************************************
+Tweet created on Mon May 08 13:27:51 +0000 2017: Guys? anybody?
+------------------------------------------------
+Tweet created on Mon May 08 13:27:08 +0000 2017: Anybody out there!!!???
+------------------------------------------------
+Tweet created on Mon May 08 13:26:12 +0000 2017: Hello World
+------------------------------------------------
 /usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song 
+************************************
+Artist Name: Jeremih
+Name of track: Impatient
+Link to a preview of the track: https://p.scdn.co/mp3-preview/0de6a01bbbd0c9a2d9cd85febcc8ea099773932e?cid=null
+Name of the album: Late Nights: The Album
+///////////////////////////////////////////////////
+/usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song 
+************************************
+Artist Name: Jeremih
+Name of track: Impatient
+Link to a preview of the track: https://p.scdn.co/mp3-preview/0de6a01bbbd0c9a2d9cd85febcc8ea099773932e?cid=null
+Name of the album: Late Nights: The Album
+///////////////////////////////////////////////////
+/usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song 
+************************************
+Artist Name: Jeremih
+Name of track: Impatient
+Link to a preview of the track: https://p.scdn.co/mp3-preview/0de6a01bbbd0c9a2d9cd85febcc8ea099773932e?cid=null
+Name of the album: Late Nights: The Album
+///////////////////////////////////////////////////
+/usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song the sign
+************************************
+Result 1
+Artist Name: Harry Styles
+Name of track: Sign of the Times
+Link to a preview of the track: https://p.scdn.co/mp3-preview/9801b9239ad1b833f1317574ee55b9d7b8426ff1?cid=null
+Name of the album: Sign of the Times
+///////////////////////////////////////////////////
+Result 2
+Artist Name: Ty Dolla $ign
+Name of track: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
+Link to a preview of the track: https://p.scdn.co/mp3-preview/70f126c139847335bc03c756c55b80c99892268e?cid=null
+Name of the album: Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
+///////////////////////////////////////////////////
+Result 3
+Artist Name: Harry Styles
+Name of track: Sign of the Times
+Link to a preview of the track: https://p.scdn.co/mp3-preview/af237206f611b722f48620ece049aff3b8650e77?cid=null
+Name of the album: Harry Styles
+///////////////////////////////////////////////////
+Result 4
+Artist Name: Jeremih
+Name of track: Impatient
+Link to a preview of the track: https://p.scdn.co/mp3-preview/0de6a01bbbd0c9a2d9cd85febcc8ea099773932e?cid=null
+Name of the album: Late Nights: The Album
+///////////////////////////////////////////////////
+Result 5
 Artist Name: Ace of Base
 Name of track: The Sign
 Link to a preview of the track: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
 Name of the album: The Sign (US Album) [Remastered]
 ///////////////////////////////////////////////////
-/usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song 
+Result 6
+Artist Name: Mac Miller
+Name of track: Cinderella (feat. Ty Dolla $ign)
+Link to a preview of the track: https://p.scdn.co/mp3-preview/1f797d8ec6a6ca7dd84d9a6d496bc92748d24557?cid=null
+Name of the album: The Divine Feminine
+///////////////////////////////////////////////////
+Result 7
+Artist Name: Lil Wayne
+Name of track: Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors)
+Link to a preview of the track: https://p.scdn.co/mp3-preview/96f9689e58c4d6188cc269c0c2089036c3817a2e?cid=null
+Name of the album: Suicide Squad: The Album
+///////////////////////////////////////////////////
+Result 8
+Artist Name: Ty Dolla $ign
+Name of track: Or Nah (feat. Wiz Khalifa) - Live from The Village, Los Angeles
+Link to a preview of the track: https://p.scdn.co/mp3-preview/4d7e630288b2ba0edd9678c2c186dcc7db3cfb73?cid=null
+Name of the album: Spotify Session
+///////////////////////////////////////////////////
+Result 9
+Artist Name: Juicy J
+Name of track: Shell Shocked (feat. Kill The Noise & Madsonik) - From "Teenage Mutant Ninja Turtles"
+Link to a preview of the track: https://p.scdn.co/mp3-preview/26fa73b8c2e9ce91efb44fad48c5a38b2e48dc11?cid=null
+Name of the album: Shell Shocked (feat. Kill The Noise & Madsonik) [From "Teenage Mutant Ninja Turtles"]
+///////////////////////////////////////////////////
+Result 10
+Artist Name: Chance The Rapper
+Name of track: Blessings
+Link to a preview of the track: https://p.scdn.co/mp3-preview/ca5047ad569d9860b850475f22cb482c8240e7a2?cid=null
+Name of the album: Coloring Book
+///////////////////////////////////////////////////
+Result 11
+Artist Name: PnB Rock
+Name of track: Hanging Up My Jersey
+Link to a preview of the track: https://p.scdn.co/mp3-preview/d9ded55ec6e478c9b68eb206e9f5714440c2c693?cid=null
+Name of the album: GTTM: Goin Thru the Motions
+///////////////////////////////////////////////////
+Result 12
+Artist Name: Jeremih
+Name of track: Don't Get Much Better (with Jeremih, Ty Dolla $ign & Sage The Gemini)
+Link to a preview of the track: https://p.scdn.co/mp3-preview/3cc94552a67418d331614b8687f625efa085f53d?cid=null
+Name of the album: Don't Get Much Better (with Jeremih, Ty Dolla $ign & Sage The Gemini)
+///////////////////////////////////////////////////
+Result 13
+Artist Name: Jeremih
+Name of track: Don't Get Much Better (with Jeremih, Ty Dolla $ign & Sage The Gemini)
+Link to a preview of the track: https://p.scdn.co/mp3-preview/3cc94552a67418d331614b8687f625efa085f53d?cid=null
+Name of the album: The Fate of the Furious: The Album
+///////////////////////////////////////////////////
+Result 14
+Artist Name: Ty Dolla $ign
+Name of track: Blasé (feat. Future & Rae Sremmurd) - Louis The Child Remix
+Link to a preview of the track: https://p.scdn.co/mp3-preview/e5c3f24261752767005a5d10ae251f3a52e84319?cid=null
+Name of the album: Blasé (feat. Future & Rae Sremmurd) [Remixes]
+///////////////////////////////////////////////////
+Result 15
+Artist Name: Major Lazer
+Name of track: Boom
+Link to a preview of the track: https://p.scdn.co/mp3-preview/c75296ad381abcd4ad558189e588dd698e3c0eb5?cid=null
+Name of the album: Peace Is The Mission (Extended)
+///////////////////////////////////////////////////
+Result 16
+Artist Name: Coldplay
+Name of track: Warning Sign
+Link to a preview of the track: https://p.scdn.co/mp3-preview/aa7d87a8e2ac9aa7261c7640548a18930572043d?cid=null
+Name of the album: A Rush Of Blood To The Head
+///////////////////////////////////////////////////
+Result 17
+Artist Name: Chris Brown
+Name of track: Nothin' Like Me
+Link to a preview of the track: https://p.scdn.co/mp3-preview/c8e72c1a12ced753952455cb2145237a0d2a40cb?cid=null
+Name of the album: Fan of A Fan The Album (Deluxe Version)
+///////////////////////////////////////////////////
+Result 18
+Artist Name: Ty Dolla $ign
+Name of track: Saved - Live from The Village, Los Angeles
+Link to a preview of the track: https://p.scdn.co/mp3-preview/fd45b9a85d625d9a00375f7219a440991e6323e9?cid=null
+Name of the album: Spotify Session
+///////////////////////////////////////////////////
+Result 19
 Artist Name: Ace of Base
 Name of track: The Sign
-Link to a preview of the track: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
-Name of the album: The Sign (US Album) [Remastered]
+Link to a preview of the track: https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=null
+Name of the album: Greatest Hits
+///////////////////////////////////////////////////
+Result 20
+Artist Name: The Americanos
+Name of track: In My Foreign (feat. Ty Dolla $ign, Lil Yachty, Nicky Jam & French Montana)
+Link to a preview of the track: https://p.scdn.co/mp3-preview/debdbfec32744181f24c2c57b567db36d987cc9f?cid=null
+Name of the album: In My Foreign (feat. Ty Dolla $ign, Lil Yachty, Nicky Jam & French Montana)
 ///////////////////////////////////////////////////
 /usr/local/bin/node /Users/rpaulin/Desktop/code/homework/liri-node-app/liri.js spotify-this-song 
+************************************
 Artist Name: Ace of Base
 Name of track: The Sign
 Link to a preview of the track: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=null
